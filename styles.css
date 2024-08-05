@@ -1,0 +1,167 @@
+/* STYLING STARTS HERE */
+
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.container {
+    box-sizing: border-box; 
+    background: #1b244a;
+    width: 800px;
+    height: 400px; 
+    display: block;
+    margin: 0 auto;
+    margin-top: 2px;
+    text-align: center;
+    justify-items: start;
+    /* align-content: flex-end; */
+       
+}
+
+h3 {
+    margin: 0;
+    margin-top: 17px;
+    padding: 0;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.boards {
+    color: #eeeeee;
+    width: 250px;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    height: 180px;
+}
+
+.board1 {
+    margin-top: 45px;
+    margin-right: 15px;
+}
+
+.board2 {
+    margin-top: 45px;
+    margin-left: 15px;
+}
+
+.score {
+    box-sizing: border-box;
+    font-family: 'Cursed Timer ULiL', sans-serif;                                                
+    font-size: 90px;
+    color: #f94f6d;
+    background-color: #080001;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-top: 10px;
+    
+}
+
+.btn {
+    box-sizing: border-box;
+    padding: 8px 10px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 20px;
+    width: 48px;
+    height: 35px;
+    display: inline-block;
+    margin: 0 auto;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background: #1b244a;
+    color: white;
+    margin-top: 15px;
+    text-align: center;
+    margin-right: 1px;
+    border-radius: 2px;
+}
+
+.btn:hover {
+    background: #2f46ab;
+}
+
+.new_game {
+    width: 170px;
+    height: 55px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background: #1b244a;
+    color: whitesmoke;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#new_btn:hover {
+    background: #2f46ab;
+}
+
+
+/* SAVE CONTAINER STYLING */
+
+.saveContainer {
+    background-color: #2f46ab;
+    box-sizing: border-box;
+    width: 800px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    padding-top: 8px;
+}
+
+#save_btn {
+    box-sizing: border-box;
+    margin: 7px 0;
+    width: 85px;
+    padding: 8px 12px;
+    text-transform: uppercase;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 0px 0px 5px black;
+    text-align: center;
+    background: #2f46ab;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#save_btn:hover {
+    background: #516de8;
+    text-transform: capitalize;
+}
+
+#homeSave {
+    margin-top: 4px;
+    margin-bottom: 0;
+    text-align: left;
+    color: aliceblue;
+    text-shadow: 0 0 4px rgb(11, 9, 9);
+}
+
+#guestSave {
+    margin-top: 15px;
+    margin-bottom: 2px;
+    text-align: left;
+    color: aliceblue;
+    text-shadow: 0 0 4px rgb(11, 9, 9);
+}
+
+/* STYLING ENDS HERE.....? */
